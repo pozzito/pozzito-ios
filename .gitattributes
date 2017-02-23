@@ -1,1 +1,3 @@
-*.framework/ linguist-language=Swift 
+
+Examples/* linguist-language=Swift
+PozzitoUI.framework/* linguist-language=Swift 
