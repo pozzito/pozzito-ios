@@ -7,9 +7,10 @@
 This is a framework created as an addition to our Pozzito framework, used to add our default UI to core Pozzito functionalities.
 
 ### CocoaPods
-Add the Pozzito pod into your Podfile and run `pod install`.
+Add the Pozzito and PozzitoUI pods into your Podfile and run `pod install`.
 
-    target :YourTargetName do
+    target :YourTargetName do 
+      pod 'Pozzito'
       pod 'PozzitoUI'
     end
 
