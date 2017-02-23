@@ -1,0 +1,10 @@
+framework module PozzitoUI {
+  umbrella header "PozzitoUI.h"
+
+  export *
+  module * { export * }
+}
+
+module PozzitoUI.Swift {
+    header "PozzitoUI-Swift.h"
+}

@@ -1,0 +1,26 @@
+PODS:
+  - Pozzito (1.0.0)
+  - PozzitoUI (1.0.0):
+    - Pozzito
+
+DEPENDENCIES:
+  - Pozzito (from `https://github.com/pozzito-dev/pozzitoapi-ios.git`, commit `0087bff0019`)
+  - PozzitoUI
+
+EXTERNAL SOURCES:
+  Pozzito:
+    :commit: '0087bff0019'
+    :git: https://github.com/pozzito-dev/pozzitoapi-ios.git
+
+CHECKOUT OPTIONS:
+  Pozzito:
+    :commit: '0087bff0019'
+    :git: https://github.com/pozzito-dev/pozzitoapi-ios.git
+
+SPEC CHECKSUMS:
+  Pozzito: ace69c44d6c5d334a3e1d2858aad35d3f6988ced
+  PozzitoUI: 85130c0f56e91dff3e13ce6ff80442a6ba2c9153
+
+PODFILE CHECKSUM: f6ba230c8f0864605ebe56ddbc9a489a62f41337
+
+COCOAPODS: 1.1.1

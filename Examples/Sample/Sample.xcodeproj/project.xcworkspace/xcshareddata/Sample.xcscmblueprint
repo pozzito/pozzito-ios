@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CB76D2BB925015D3171598D5BEC7021CBE3DD9C2" : 9223372036854775807,
+    "A9E47682B381DE91A7D8895923877F55746040EF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "32E101AA-53BD-4377-B848-639F11A076C4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CB76D2BB925015D3171598D5BEC7021CBE3DD9C2" : "PozzitoUI\/",
+    "A9E47682B381DE91A7D8895923877F55746040EF" : "Pozzito\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Sample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/rs-build.int.sedamit.hr\/repo\/r\/~mmamic\/Pozzito.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A9E47682B381DE91A7D8895923877F55746040EF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/rs-build.int.sedamit.hr\/repo\/r\/hyper\/ios\/hyper_sdk_ui.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB76D2BB925015D3171598D5BEC7021CBE3DD9C2"
+    }
+  ]
+}

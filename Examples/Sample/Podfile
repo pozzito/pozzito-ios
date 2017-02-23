@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Uncomment this line to define a global platform for your project
+ platform :ios, '10.0'
+
+target 'Sample' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+
+  pod 'Pozzito', :git => 'https://github.com/pozzito-dev/pozzitoapi-ios.git', :commit => '0087bff0019'
+  pod 'PozzitoUI'
+end
