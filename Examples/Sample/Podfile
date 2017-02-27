@@ -8,6 +8,6 @@ target 'Sample' do
   use_frameworks!
 
 
-  pod 'Pozzito', :git => 'https://github.com/pozzito-dev/pozzitoapi-ios.git', :commit => '0087bff0019'
+  pod 'Pozzito'
   pod 'PozzitoUI'
 end
