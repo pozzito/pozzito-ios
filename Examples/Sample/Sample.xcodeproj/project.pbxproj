@@ -7,47 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		182C29161EC3228100E373AE /* PozzitoUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182C290D1EC3224B00E373AE /* PozzitoUI.framework */; };
-		182C29171EC3228100E373AE /* PozzitoUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 182C290D1EC3224B00E373AE /* PozzitoUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		182C291A1EC3228100E373AE /* Pozzito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182C29071EC3223C00E373AE /* Pozzito.framework */; };
-		182C291B1EC3228100E373AE /* Pozzito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 182C29071EC3223C00E373AE /* Pozzito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		186190D41E5C451F00C3637C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186190D31E5C451F00C3637C /* AppDelegate.swift */; };
 		186190D61E5C451F00C3637C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186190D51E5C451F00C3637C /* ViewController.swift */; };
 		186190DB1E5C451F00C3637C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186190DA1E5C451F00C3637C /* Assets.xcassets */; };
 		186190DE1E5C451F00C3637C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186190DC1E5C451F00C3637C /* LaunchScreen.storyboard */; };
 		186190E71E5C4E1000C3637C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186190E51E5C4E1000C3637C /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		182C29061EC3223C00E373AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 182C29021EC3223C00E373AE /* Pozzito.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1856BD3B1DB4D16F006C14EB;
-			remoteInfo = Pozzito;
-		};
-		182C290C1EC3224B00E373AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18CB9ADC1E3638BF002812E3;
-			remoteInfo = PozzitoUI;
-		};
-		182C29181EC3228100E373AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 18CB9ADB1E3638BF002812E3;
-			remoteInfo = PozzitoUI;
-		};
-		182C291C1EC3228100E373AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 182C29021EC3223C00E373AE /* Pozzito.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 1856BD3A1DB4D16F006C14EB;
-			remoteInfo = Pozzito;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		182C291E1EC3228100E373AE /* Embed Frameworks */ = {
@@ -56,8 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				182C291B1EC3228100E373AE /* Pozzito.framework in Embed Frameworks */,
-				182C29171EC3228100E373AE /* PozzitoUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,8 +28,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		182C29021EC3223C00E373AE /* Pozzito.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pozzito.xcodeproj; path = "../../../../pozzito projekti/Pozzito/Pozzito.xcodeproj"; sourceTree = "<group>"; };
-		182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PozzitoUI.xcodeproj; path = "../../../../pozzito projekti/PozzitoUI/PozzitoUI.xcodeproj"; sourceTree = "<group>"; };
 		186190D01E5C451F00C3637C /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186190D31E5C451F00C3637C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186190D51E5C451F00C3637C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,35 +42,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182C291A1EC3228100E373AE /* Pozzito.framework in Frameworks */,
-				182C29161EC3228100E373AE /* PozzitoUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		182C29031EC3223C00E373AE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				182C29071EC3223C00E373AE /* Pozzito.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		182C29091EC3224B00E373AE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				182C290D1EC3224B00E373AE /* PozzitoUI.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		186190C71E5C451F00C3637C = {
 			isa = PBXGroup;
 			children = (
-				182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */,
-				182C29021EC3223C00E373AE /* Pozzito.xcodeproj */,
 				186190D21E5C451F00C3637C /* Sample */,
 				186190D11E5C451F00C3637C /* Products */,
 			);
@@ -151,8 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				182C29191EC3228100E373AE /* PBXTargetDependency */,
-				182C291D1EC3228100E373AE /* PBXTargetDependency */,
 			);
 			name = Sample;
 			productName = Sample;
@@ -187,39 +126,12 @@
 			mainGroup = 186190C71E5C451F00C3637C;
 			productRefGroup = 186190D11E5C451F00C3637C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 182C29031EC3223C00E373AE /* Products */;
-					ProjectRef = 182C29021EC3223C00E373AE /* Pozzito.xcodeproj */;
-				},
-				{
-					ProductGroup = 182C29091EC3224B00E373AE /* Products */;
-					ProjectRef = 182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				186190CF1E5C451F00C3637C /* Sample */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		182C29071EC3223C00E373AE /* Pozzito.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pozzito.framework;
-			remoteRef = 182C29061EC3223C00E373AE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		182C290D1EC3224B00E373AE /* PozzitoUI.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PozzitoUI.framework;
-			remoteRef = 182C290C1EC3224B00E373AE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		186190CE1E5C451F00C3637C /* Resources */ = {
@@ -245,19 +157,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		182C29191EC3228100E373AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PozzitoUI;
-			targetProxy = 182C29181EC3228100E373AE /* PBXContainerItemProxy */;
-		};
-		182C291D1EC3228100E373AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Pozzito;
-			targetProxy = 182C291C1EC3228100E373AE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		186190DC1E5C451F00C3637C /* LaunchScreen.storyboard */ = {
