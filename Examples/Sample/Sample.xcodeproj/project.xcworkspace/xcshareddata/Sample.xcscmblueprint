@@ -1,22 +1,30 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "72D6544C0E57AB4337511F9B2DCDA7743D02D11F",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "72D6544C0E57AB4337511F9B2DCDA7743D02D11F" : 9223372036854775807,
     "CB76D2BB925015D3171598D5BEC7021CBE3DD9C2" : 9223372036854775807,
     "A9E47682B381DE91A7D8895923877F55746040EF" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "32E101AA-53BD-4377-B848-639F11A076C4",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "CB76D2BB925015D3171598D5BEC7021CBE3DD9C2" : "PozzitoUI\/",
-    "A9E47682B381DE91A7D8895923877F55746040EF" : "Pozzito\/"
+    "72D6544C0E57AB4337511F9B2DCDA7743D02D11F" : "PozzitoUI\/",
+    "CB76D2BB925015D3171598D5BEC7021CBE3DD9C2" : "..\/pozzito%20projekti\/PozzitoUI",
+    "A9E47682B381DE91A7D8895923877F55746040EF" : "..\/pozzito%20projekti\/Pozzito"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Sample",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Examples\/Sample\/Sample.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/rs-build.int.sedamit.hr\/repo\/r\/~mmamic\/Pozzito.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:pozzito\/pozzito-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72D6544C0E57AB4337511F9B2DCDA7743D02D11F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/rs-build.int.sedamit.hr\/repo\/r\/ios\/pozzito.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A9E47682B381DE91A7D8895923877F55746040EF"
     },

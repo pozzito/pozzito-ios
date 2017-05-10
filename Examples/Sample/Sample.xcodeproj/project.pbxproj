@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182C29161EC3228100E373AE /* PozzitoUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182C290D1EC3224B00E373AE /* PozzitoUI.framework */; };
+		182C29171EC3228100E373AE /* PozzitoUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 182C290D1EC3224B00E373AE /* PozzitoUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		182C291A1EC3228100E373AE /* Pozzito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182C29071EC3223C00E373AE /* Pozzito.framework */; };
+		182C291B1EC3228100E373AE /* Pozzito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 182C29071EC3223C00E373AE /* Pozzito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		186190D41E5C451F00C3637C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186190D31E5C451F00C3637C /* AppDelegate.swift */; };
 		186190D61E5C451F00C3637C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186190D51E5C451F00C3637C /* ViewController.swift */; };
 		186190DB1E5C451F00C3637C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186190DA1E5C451F00C3637C /* Assets.xcassets */; };
 		186190DE1E5C451F00C3637C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186190DC1E5C451F00C3637C /* LaunchScreen.storyboard */; };
 		186190E71E5C4E1000C3637C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186190E51E5C4E1000C3637C /* Main.storyboard */; };
-		7E96D2FCAEC9957FDA74635C /* Pods_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F0DDE81AA6F59B588282BB /* Pods_Sample.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		182C29061EC3223C00E373AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182C29021EC3223C00E373AE /* Pozzito.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1856BD3B1DB4D16F006C14EB;
+			remoteInfo = Pozzito;
+		};
+		182C290C1EC3224B00E373AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18CB9ADC1E3638BF002812E3;
+			remoteInfo = PozzitoUI;
+		};
+		182C29181EC3228100E373AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CB9ADB1E3638BF002812E3;
+			remoteInfo = PozzitoUI;
+		};
+		182C291C1EC3228100E373AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182C29021EC3223C00E373AE /* Pozzito.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1856BD3A1DB4D16F006C14EB;
+			remoteInfo = Pozzito;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		183E56B61E5ED522001EFBEC /* Embed Frameworks */ = {
+		182C291E1EC3228100E373AE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				182C291B1EC3228100E373AE /* Pozzito.framework in Embed Frameworks */,
+				182C29171EC3228100E373AE /* PozzitoUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -29,6 +65,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		182C29021EC3223C00E373AE /* Pozzito.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pozzito.xcodeproj; path = "../../../../pozzito projekti/Pozzito/Pozzito.xcodeproj"; sourceTree = "<group>"; };
+		182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PozzitoUI.xcodeproj; path = "../../../../pozzito projekti/PozzitoUI/PozzitoUI.xcodeproj"; sourceTree = "<group>"; };
 		186190D01E5C451F00C3637C /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186190D31E5C451F00C3637C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186190D51E5C451F00C3637C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,9 +74,6 @@
 		186190DD1E5C451F00C3637C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186190DF1E5C451F00C3637C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186190E61E5C4E1000C3637C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F77C1E6A7F3893320D607D0 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		A17E1C7989E67410B55F0132 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		E1F0DDE81AA6F59B588282BB /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,20 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E96D2FCAEC9957FDA74635C /* Pods_Sample.framework in Frameworks */,
+				182C291A1EC3228100E373AE /* Pozzito.framework in Frameworks */,
+				182C29161EC3228100E373AE /* PozzitoUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182C29031EC3223C00E373AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182C29071EC3223C00E373AE /* Pozzito.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182C29091EC3224B00E373AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182C290D1EC3224B00E373AE /* PozzitoUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		186190C71E5C451F00C3637C = {
 			isa = PBXGroup;
 			children = (
+				182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */,
+				182C29021EC3223C00E373AE /* Pozzito.xcodeproj */,
 				186190D21E5C451F00C3637C /* Sample */,
 				186190D11E5C451F00C3637C /* Products */,
-				24B0C6A1E78E3A8722A88C03 /* Pods */,
-				712EE6FB441EEBA967423B5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,23 +136,6 @@
 			path = Sample;
 			sourceTree = "<group>";
 		};
-		24B0C6A1E78E3A8722A88C03 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4F77C1E6A7F3893320D607D0 /* Pods-Sample.debug.xcconfig */,
-				A17E1C7989E67410B55F0132 /* Pods-Sample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		712EE6FB441EEBA967423B5E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E1F0DDE81AA6F59B588282BB /* Pods_Sample.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,17 +143,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186190E21E5C451F00C3637C /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
-				829CCB1B954D7E416C93969A /* [CP] Check Pods Manifest.lock */,
 				186190CC1E5C451F00C3637C /* Sources */,
 				186190CD1E5C451F00C3637C /* Frameworks */,
 				186190CE1E5C451F00C3637C /* Resources */,
-				183E56B61E5ED522001EFBEC /* Embed Frameworks */,
-				42ED78A71AA6A3FC89DA3A9E /* [CP] Embed Pods Frameworks */,
-				A566C3D183CC73A333FEDE04 /* [CP] Copy Pods Resources */,
+				182C291E1EC3228100E373AE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				182C29191EC3228100E373AE /* PBXTargetDependency */,
+				182C291D1EC3228100E373AE /* PBXTargetDependency */,
 			);
 			name = Sample;
 			productName = Sample;
@@ -153,12 +187,39 @@
 			mainGroup = 186190C71E5C451F00C3637C;
 			productRefGroup = 186190D11E5C451F00C3637C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 182C29031EC3223C00E373AE /* Products */;
+					ProjectRef = 182C29021EC3223C00E373AE /* Pozzito.xcodeproj */;
+				},
+				{
+					ProductGroup = 182C29091EC3224B00E373AE /* Products */;
+					ProjectRef = 182C29081EC3224B00E373AE /* PozzitoUI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				186190CF1E5C451F00C3637C /* Sample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		182C29071EC3223C00E373AE /* Pozzito.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pozzito.framework;
+			remoteRef = 182C29061EC3223C00E373AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		182C290D1EC3224B00E373AE /* PozzitoUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PozzitoUI.framework;
+			remoteRef = 182C290C1EC3224B00E373AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		186190CE1E5C451F00C3637C /* Resources */ = {
@@ -173,54 +234,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		42ED78A71AA6A3FC89DA3A9E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample/Pods-Sample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		829CCB1B954D7E416C93969A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A566C3D183CC73A333FEDE04 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample/Pods-Sample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		186190CC1E5C451F00C3637C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -232,6 +245,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182C29191EC3228100E373AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PozzitoUI;
+			targetProxy = 182C29181EC3228100E373AE /* PBXContainerItemProxy */;
+		};
+		182C291D1EC3228100E373AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pozzito;
+			targetProxy = 182C291C1EC3228100E373AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		186190DC1E5C451F00C3637C /* LaunchScreen.storyboard */ = {
@@ -348,7 +374,6 @@
 		};
 		186190E31E5C451F00C3637C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F77C1E6A7F3893320D607D0 /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -365,7 +390,6 @@
 		};
 		186190E41E5C451F00C3637C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A17E1C7989E67410B55F0132 /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

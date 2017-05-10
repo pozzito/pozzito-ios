@@ -26,11 +26,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startSupportBtnPressed(_ sender: UIButton) {
-        PozzitoManager(apiKey: "2752793aa33b4191b4ea0237884c46d2",
-                       appId: "640jek4u4lsGEE9EcL4GVg~~") { (serviceError) in
-            if serviceError == nil {
-                SupportUI(initialViewController: self)
-            }
+        PozzitoManager(apiKey: "5a43b3a9bbf74bcc89724ba5cbd3a9de",
+                       appId: "rota6jbC2Z-lMKh5cI118w~~") { (serviceError) in
+                        if serviceError == nil {
+                            SupportUI(initialViewController: self)
+                        } else {
+                            let alert = UIAlertController(title: "Error", message: serviceError!.customDescription, preferredStyle: .alert)
+                            let action = UIAlertAction(title: "Dismiss", style: .default, handler: { a in
+                                alert.dismiss(animated: true, completion: nil)
+                            })
+                            alert.addAction(action)
+                            self.present(alert, animated: true, completion: nil)
+
+                        }
+
         }
     }
 
