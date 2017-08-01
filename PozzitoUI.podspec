@@ -8,15 +8,15 @@
 
 Pod::Spec.new do |s|
   s.name         = "PozzitoUI"
-  s.version      = "1.1.0"
+  s.version      = "1.2.0"
   s.summary      = "Pozzito SDK UI elements"
   s.description  = "Pozzito default UI - user access, conversation creation and review, chat, user details"
   s.homepage     = "https://github.com/pozzito-dev/pozzito-ios"
   s.license      = "Private"
   s.author       = "Sedam IT"
   s.platform     = :ios, "9.0"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
-s.source       = { :git => 'https://github.com/pozzito/pozzito-ios.git', :tag => '1.1.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.1' }
+s.source       = { :git => 'https://github.com/pozzito/pozzito-ios.git', :tag => '1.2.0' }
   s.vendored_frameworks = 'PozzitoUI.framework'
   s.dependency  "Pozzito"
 end

@@ -162,6 +162,10 @@ SWIFT_CLASS("_TtC9PozzitoUI20NavigationController")
 @end
 
 
+@interface UIApplication (SWIFT_EXTENSION(PozzitoUI))
+@end
+
+
 @interface UIButton (SWIFT_EXTENSION(PozzitoUI))
 @end
 
