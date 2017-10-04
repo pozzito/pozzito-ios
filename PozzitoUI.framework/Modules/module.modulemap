@@ -7,4 +7,5 @@ framework module PozzitoUI {
 
 module PozzitoUI.Swift {
     header "PozzitoUI-Swift.h"
+    requires objc
 }
